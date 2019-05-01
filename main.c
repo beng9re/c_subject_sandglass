@@ -168,7 +168,6 @@ void draw_kbh(){
     scanf("%d",&num);
     clearBuffer();
     
-    
     while (1) {
         if(num==EXIT_FLAG){     //0 일경우 출력후 프로그램 종료
             printf("-----------------------------\n");
@@ -189,7 +188,5 @@ void draw_kbh(){
         printf(" 숫자 입력 : ");
         scanf("%d",&num);
         clearBuffer();
-        
-    
     }
 }
